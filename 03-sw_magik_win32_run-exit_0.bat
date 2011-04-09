@@ -1,3 +1,4 @@
 @echo off
-sw_magik_win32 -image %SMALLWORLD_GIS%\images\swaf.msf <03-sw_magik_win32_run-exit_0.magik >output.log
+set SOURCE_FILE=%~n0.magik
+sw_magik_win32 -image %SMALLWORLD_GIS%\images\swaf.msf <%SOURCE_FILE% >output.log
 echo %%ERRORLEVEL%% == %ERRORLEVEL%

@@ -1,4 +1,7 @@
-write("03-sw_magik_win32_run-exit_0.magik: started")
+_global g_source_file << system.getenv(:source_file)
+$
+
+write(g_source_file, ": started")
 $
 
 quit(0)

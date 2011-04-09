@@ -1,4 +1,7 @@
-write("05-gis_run-sleep.magik: sleeping for 10 s.")
+_global g_source_file << system.getenv(:source_file)
+$
+
+write(g_source_file, ": sleeping for 10 s.")
 $
 
 _thisthread.sleep(10*1000)

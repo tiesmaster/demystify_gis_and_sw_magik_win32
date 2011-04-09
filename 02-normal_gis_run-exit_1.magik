@@ -1,4 +1,7 @@
-write("02-normal_gis_run-exit_1.magik: started")
+_global g_source_file << system.getenv(:source_file)
+$
+
+write(g_source_file, ": started")
 $
 
 quit(1)

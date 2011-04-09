@@ -1,3 +1,4 @@
 @echo off
-gis -l output.log swaf <01-normal_gis_run-exit_0.magik
+set SOURCE_FILE=%~n0.magik
+gis -l output.log swaf <%SOURCE_FILE%
 echo %%ERRORLEVEL%% == %ERRORLEVEL%
