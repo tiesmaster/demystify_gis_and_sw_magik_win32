@@ -1,4 +1,4 @@
-write("01-normal_gis_run.magik: started")
+write("01-normal_gis_run_exit_0.bat: started")
 $
 
 quit(0)
