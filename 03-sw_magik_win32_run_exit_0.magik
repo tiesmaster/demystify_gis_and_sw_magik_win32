@@ -1,5 +1,0 @@
-write("03-sw_magik_win32_run_exit_0.magik: started")
-$
-
-quit(0)
-$

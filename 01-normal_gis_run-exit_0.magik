@@ -1,0 +1,5 @@
+write("01-normal_gis_run-exit_0.bat: started")
+$
+
+quit(0)
+$
