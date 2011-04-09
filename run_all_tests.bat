@@ -1,3 +1,6 @@
+@echo off
+echo starting
+
 echo running test case 01: normal gis run, exit code 0
 call 01-normal_gis_run-exit_0.bat
 echo running test case 02: normal gis run, exit code 1
