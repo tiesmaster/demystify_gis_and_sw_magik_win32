@@ -1,0 +1,8 @@
+Run these test cases in a "Smallworld Shell". This can be started using the cmd gis alias, eg:
+
+ * open command prompt
+ * cd to a smallworld install (eg C:\>cd C:\smallworld)
+ * then do the following
+   + C:\>cd product\bin\x86
+   + C:\>gis cmd
+   + C:\>run_all_tests.bat
