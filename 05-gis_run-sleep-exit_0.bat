@@ -1,5 +1,5 @@
 @echo off
-gis -l output.log swaf <06-gis_run_sleep-exit_1.magik
+gis -l output.log swaf <05-gis_run-sleep-exit_0.magik
 echo %%ERRORLEVEL%% == %ERRORLEVEL%
 copy output.log con
 del output.log
