@@ -1,0 +1,5 @@
+write("01-normal_gis_run.magik: started")
+$
+
+quit(0)
+$
