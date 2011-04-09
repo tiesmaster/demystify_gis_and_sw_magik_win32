@@ -4,5 +4,5 @@ $
 _thisthread.sleep(10*1000)
 $
 
-quit(1)
+quit(0)
 $
