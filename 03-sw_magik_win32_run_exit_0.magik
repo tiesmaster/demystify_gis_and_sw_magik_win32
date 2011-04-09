@@ -1,0 +1,5 @@
+write("03-sw_magik_win32_run_exit_0.magik")
+$
+
+quit(0)
+$
