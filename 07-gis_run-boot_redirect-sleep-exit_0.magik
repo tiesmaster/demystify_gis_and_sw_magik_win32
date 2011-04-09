@@ -1,0 +1,8 @@
+write("07-gis_run-boot_redirect-sleep-exit_0.magik: sleeping for 10 s.")
+$
+
+_thisthread.sleep(10*1000)
+$
+
+quit(0)
+$
