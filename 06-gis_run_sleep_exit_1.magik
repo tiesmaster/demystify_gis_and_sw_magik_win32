@@ -1,0 +1,8 @@
+write("06-gis_run_sleep_exit_1.magik: sleeping for 10 s.")
+$
+
+_thisthread.sleep(10*1000)
+$
+
+quit(1)
+$

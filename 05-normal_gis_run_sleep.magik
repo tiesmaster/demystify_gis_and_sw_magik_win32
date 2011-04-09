@@ -1,8 +1,0 @@
-write("05-normal_gis_run_sleep.magik: sleeping for 10 s.")
-$
-
-_thisthread.sleep(10*1000)
-$
-
-quit(0)
-$
