@@ -6,3 +6,5 @@ call 05-gis_run-sleep-exit_0.bat
 call 06-gis_run-sleep-exit_1.bat
 call 07-gis_run-boot_redirect-sleep-exit_0.bat
 call 08-gis_run-boot_redirect-sleep-exit_1.bat
+
+del output*
