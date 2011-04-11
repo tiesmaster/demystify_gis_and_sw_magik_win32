@@ -1,4 +1,4 @@
 @echo off
 set SOURCE_FILE=%~n0.magik
-gis -l output-%SOURCE_FILE%.log swaf <%SOURCE_FILE%
+gis swaf <%SOURCE_FILE% >output-%SOURCE_FILE%.log
 echo %%ERRORLEVEL%% == %ERRORLEVEL%
