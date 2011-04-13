@@ -17,5 +17,3 @@ echo running test case 07: normal gis run, boot redirect, sleep, exit code 0
 call 07-gis_run-boot_redirect-sleep-exit_0.bat
 echo running test case 08: normal gis run, boot redirect, sleep, exit code 1
 call 08-gis_run-boot_redirect-sleep-exit_1.bat
-
-del output*
