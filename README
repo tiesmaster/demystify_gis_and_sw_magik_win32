@@ -1,8 +1,13 @@
 Run these test cases in a "Smallworld Shell". This can be started using the cmd gis alias, eg:
 
- * open command prompt
- * cd to a smallworld install (eg C:\>cd C:\smallworld)
- * then do the following
-   + C:\>cd product\bin\x86
-   + C:\>gis cmd
-   + C:\>run_all_tests.bat
+ * open a command prompt and do the following:
+
+   + C:\>cd /d C:\Smallworld\product\bin\x86
+   + C:\Smallworld\product\bin\x86>gis cmd
+   + C:\Users\ties>cd /d D:\demystify_gis_and_sw_magik_win32
+   + D:\demystify_gis_and_sw_magik_win32>run_all_tests.bat
+
+Assuming that:
+ * Smallworld is installed in C:\smallworld, and
+ * You've put the test cases in D:\demystify_gis_and_sw_magik_win32
+
